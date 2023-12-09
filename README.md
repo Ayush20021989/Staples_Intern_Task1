@@ -47,7 +47,6 @@ Ensure that the port is available.
 
 - **💼 Exception Handling:**
   - Graceful handling of exceptions with proper error messages and HTTP status codes.
-  - Custom exception class implemented.
 
 - **📦 Service Layer:**
   - Service layer to encapsulate business logic.
