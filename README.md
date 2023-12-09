@@ -19,19 +19,10 @@ Welcome to my simple Spring Boot CRUD application! 🌟 This project allows you 
 
    ```properties
    # DataSource Configuration
-   spring.datasource.url=jdbc:mysql://localhost:3306/product?useSSL=false
+   spring.datasource.url=jdbc:mysql://localhost:3306/your_database_here?useSSL=false
    spring.datasource.username=your_username_here
    spring.datasource.password=your_password_here
-
-   # Hibernate Configuration
-   spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
-
-   # Update the database schema automatically
-   spring.jpa.hibernate.ddl-auto=update
-
-   # Additional configurations, if needed
-   # spring.jpa.show-sql=true
-   # spring.jpa.properties.hibernate.format_sql=true
+  
 Replace your_username_here and your_password_here with your actual database username and password. Uncomment and configure any additional properties based on your specific requirements.
 
 4. **Run the Application:**
@@ -74,7 +65,7 @@ Ensure that the port is available.
   - Run the service locally.
 
 ## **Watch the Demo Video 🎥**
-
+https://github.com/Ayush20021989/Staples_Intern_Task1/assets/100331783/e7c2f6fd-575e-49a1-a783-5d82ec0f918d
 
 ## **Contributing**
 Feel free to contribute, suggest improvements, or report issues! 🚀
